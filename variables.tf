@@ -58,5 +58,11 @@ variable "enable_oslogin" {
 }
 
 variable "credkey" { 
-    description = "Path to the '.json' file storing the service account credentials "
+    description = "Path to the '.json' file storing the service account credentials"
+    type        = string
+}
+
+variable "ssh_pubkey" {
+    description = "Path to the ssh public key to be added to the compute instance"
+    type        = string
 }

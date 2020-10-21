@@ -5,7 +5,7 @@ terraform {
 
 # Provider info with project name, region and zone
 provider "google" {
-  credentials   = var.credkey
+  credentials   = file(var.credkey)
   project       = var.project
   region        = var.region
 }

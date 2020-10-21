@@ -1,0 +1,10 @@
+# Exclude sensitive credential files
+/keys/*
+account.json
+
+# Exclude terraform modules and state files
+/.terraform/*
+terraform.tfstate*
+
+# Exclude IDE files
+/.idea/

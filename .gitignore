@@ -5,6 +5,7 @@ account.json
 # Exclude terraform modules and state files
 /.terraform/*
 terraform.tfstate*
+terraform.tfvars
 
 # Exclude IDE files
 /.idea/
